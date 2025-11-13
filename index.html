@@ -18,19 +18,17 @@
     </style>
 </head>
 <body class="bg-gray-900">
-    <!-- modern nav for portfolio -->
+    <!-- Nav -->
     <nav class="bg-gray-800 p-4 shadow-lg">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
-            <a href="homepage.html" class="text-white uppercase tracking-widest font-bold">Jonah</a>
-            <div class="space-x-4">
-                <a href="homepage.html" class="text-gray-300 hover:text-white text-xs tracking-wider">Home</a>
-                <a href="portfolio.html" class="text-gray-300 hover:text-white text-xs tracking-wider">Portfolio</a>
-                <a href="index.html" class="text-gray-300 hover:text-white text-xs tracking-wider">CV</a>
+            <a href="index.html" class="text-white uppercase tracking-widest font-bold">Jonah</a>
+            <div class="space-x-6">
+                <a href="index.html" class="text-white font-bold text-xs tracking-wider">Home</a>
+                <a href="projects.html" class="text-gray-300 hover:text-white text-xs tracking-wider">My Projects</a>
             </div>
         </div>
     </nav>
 
-    <!-- Full page header with CTA -->
     <header class="bg-gray-900 text-white py-64 gplay">
         <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-4xl font-bold mb-4">Hey! I'm <span class="text-teal-400">Jonah</span></h1>
@@ -107,17 +105,17 @@
 
     <!-- Projects -->
     <section class="my-16 px-4 text-white bg-gray-800">
-        <div class="mx-auto max-w-4xl py-8">
-            <h2 class="text-2xl font-bold mb-4">Featured Projects</h2>
+        <div class="mx-auto max-w-4xl py-8 lg:px-4">
+            <h2 class="text-2xl font-bold text-teal-400 mb-4">Featured Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-gray-900 p-4 rounded-lg">
-                    <h3 class="text-xl font-bold mb-2">Project One</h3>
-                    <p>A brief description of Project One. This project showcases my skills in frontend development.</p>
-                </div>
-                <div class="bg-gray-900 p-4 rounded-lg">
-                    <h3 class="text-xl font-bold mb-2">Project Two</h3>
-                    <p>A brief description of Project Two. This project highlights my backend development capabilities.</p>
-                </div>
+                <a class="bg-gray-900 p-4 rounded-lg" href="projects/lms.html">
+                    <h3 class="font-bold mb-2">Loan Management System</h3>
+                    <p class="text-sm text-justify">A web-based application designed to manage loan processing, borrower records, payment tracking, and amortization schedules. It automates loan calculations and reporting to streamline operations for La Famiglia Lending Investors Corporation.</p>
+                </a>
+                <a class="bg-gray-900 p-4 rounded-lg" href="projects/pos.html">
+                    <h3 class="font-bold mb-2">Point of Sales (POS) System</h3>
+                    <p class="text-sm text-justify">A sales and inventory management platform that handles product transactions, stock monitoring, and real-time sales reports, helping UPTOP Diner efficiently track and manage daily operations.</p>
+                </a>
             </div>
         </div>
     </section>
@@ -125,7 +123,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="max-w-4xl mx-auto text-center">
-            <p>&copy; 2024 Jonah Angelo M. Elizaga. All rights reserved.</p>
+            <p class="text-xs">&copy; 2025 Jonah Angelo M. Elizaga. All rights reserved.</p>
         </div>
     </footer>
 </body>
