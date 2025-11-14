@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+    <title>Basic Inventory System</title>
+</head>
+<body class="bg-gray-900 flex flex-col min-h-screen">
+    <!-- Nav -->
+    <nav class="bg-gray-800 p-4 shadow-lg">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="../index.html" class="text-white uppercase tracking-widest font-bold">Jonah</a>
+            <div class="space-x-6">
+                <a href="../index.html" class="text-gray-300 hover:text-white text-xs tracking-wider">Home</a>
+                <a href="../projects.html" class="text-gray-300 hover:text-white text-xs tracking-wider">My Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 text-white my-16 flex-grow">
+        <h1 class="font-bold text-2xl text-teal-400">Basic Inventory System</h1>
+    
+        <div class="mt-6">
+            <h2 class="font-bold text-lg text-teal-400">Overview</h2>
+            <p class="text-justify">A straightforward inventory management web app built to handle essential stock operations with ease. It provides a clean interface for adding items, updating records, processing sales, and generating reports — all designed to keep small businesses organized without the complexity of a full enterprise system.</p>
+            <p class="text-justify mt-2">The system focuses on speed and simplicity, making it easy for users to maintain item lists, record transactions, and export or import data when needed.</p>
+            <p class="text-justify mt-2"><b>Tech Used:</b> Laravel 8, Vue.js, Inertia.js, SQLite, Tailwind CSS</p>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="font-bold text-lg text-teal-400">Key Features</h2>
+            <ul class="list-disc ps-6">
+                <li><b>Item Management:</b> Add, edit, and delete inventory items with a simple, user-friendly interface.</li>
+                <li><b>Sales Handling:</b> Record item sales with automatic quantity adjustments.</li>
+                <li><b>Data Import & Export:</b> Upload and download item lists for quick bulk updates.</li>
+                <li><b>Report Generation:</b> Produce daily, weekly, and monthly reports for tracking performance.</li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h2 class="font-bold text-lg text-teal-400">The Story Behind It</h2>
+            <p class="text-justify">This project began as a way to practice building a lightweight inventory system using Inertia.js and Vue, while keeping the workflow clean and efficient. It became a great sandbox for experimenting with Laravel’s features and learning how to connect a smooth frontend experience directly with backend logic.</p>
+        </div>
+
+        <div class="mt-6">
+            <h2 class="font-bold text-lg text-teal-400">What I'm Proud Of</h2>
+            <p class="text-justify">Creating this project helped me sharpen my understanding of how to structure a simple yet reliable CRUD system. It strengthened my grasp on Laravel–Vue integration and gave me a solid foundation in building practical tools that remain easy to maintain and scale later on.</p>
+        </div>
+
+        <div class="mt-4">
+            <h2 class="font-bold text-lg text-teal-400">Screenshots</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+                <img class="aspect-video rounded-sm" src="screenshots/inventory/1.png" alt="Dashboard">
+                <img class="aspect-video rounded-sm" src="screenshots/inventory/2.png" alt="Items List">
+                <img class="aspect-video rounded-sm" src="screenshots/inventory/3.png" alt="Item Creation">
+                <img class="aspect-video rounded-sm" src="screenshots/inventory/4.png" alt="Reports Page">
+            </div>
+        </div>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-xs">&copy; 2025 Jonah Angelo M. Elizaga. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

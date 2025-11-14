@@ -9,7 +9,7 @@
 
     <title>Projects - Jonah Angelo M. Elizaga</title>
 </head>
-<body class="bg-gray-900">
+<body class="bg-gray-900 flex flex-col min-h-screen">
     <!-- Nav -->
     <nav class="bg-gray-800 p-4 shadow-lg">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
@@ -20,6 +20,32 @@
             </div>
         </div>
     </nav>
+
+    <main class="max-w-4xl mx-auto px-4 text-white my-16 flex-grow">
+        <h1 class="font-bold text-2xl">My Projects</h1>
+
+        <div class="mt-6 space-y-4">
+            <a href="projects/lms.html" class="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition">
+                <h2 class="font-bold text-lg text-teal-400">Loan Management System</h2>
+                <p class="mt-2 text-sm text-gray-300 text-justify">A full-featured web app for managing loans, borrowers, payments, and amortization schedules. Built for LFLIC to replace a subscription-based system, it streamlines operations with a modern dashboard, automated calculations, and real-time tracking. It’s designed to be scalable, efficient, and tailored to real lending workflows.</p>
+            </a>
+
+            <a href="projects/pos.html" class="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition">
+                <h2 class="font-bold text-lg text-teal-400">Point of Sales (POS) System</h2>
+                <p class="mt-2 text-sm text-gray-300 text-justify">A restaurant-focused POS built for UPTOP Diner, featuring real-time order updates that flow directly to the kitchen. It handles sales, menu management, and revenue insights in a fast, intuitive interface designed for busy service environments. The system improves accuracy and speed across both front-of-house and kitchen operations.</p>
+            </a>
+
+            <a href="projects/inventory.html" class="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition">
+                <h2 class="font-bold text-lg text-teal-400">Basic Inventory System</h2>
+                <p class="mt-2 text-sm text-gray-300 text-justify">A lightweight inventory tool built with Laravel, Vue, and Inertia.js for simple item management. It supports adding items, recording sales, importing/exporting data, and generating quick daily to monthly reports. Perfect for small businesses needing a straightforward, easy-to-maintain inventory solution.</p>
+            </a>
+
+            <a href="projects/ddss.html" class="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition">
+                <h2 class="font-bold text-lg text-teal-400">PUP Calauan — Digitalized Document Storage System</h2>
+                <p class="mt-2 text-sm text-gray-300 text-justify">A redesigned, locally hosted document management platform for PUP Calauan that lets faculty upload files, organize folders, and track changes through detailed activity logs. The revamp improved the interface, added missing features, and introduced a registrar module for managing student records and entrance credentials. It delivers a secure, campus-focused alternative to cloud storage with role-based access and collaboration.</p>
+            </a>
+        </div>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
